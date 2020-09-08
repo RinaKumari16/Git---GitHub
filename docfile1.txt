@@ -4,26 +4,5 @@ start debugging
 
 click step into option 
 
-
-LCD Set up: LCDSetup.c
-Breakpoint set for initial  LCD server Display
-void	InitialLCDSetUp( void ){
-void	ChkActEnvLCDSetUp( int code ){
-
-PreEvnt.cpp
-set for user Admin dialog box
-
-
-
-
-PreEvntMsg.cpp
-set for Click on Auditlog Button
-reset user account for locked Account
-to remote ping for DicomRemoteinfo
-
-void CPreEvtMsg::PresetKey(unsigned short nomb)
-void CPreEvtMsg::SetDicomLocalWirelessInfo(unsigned short nomb, unsigned long &ulIPAddress,CString & ulIPv6Address)
-void CPreEvtMsg::SetDicomRemoteInfo(unsigned short nomb, CString &strAppName, CString &strStationName, unsigned short &uwPort)
-{
-void CPreEvtMsg::SetDicomMppsServerInfo(unsigned short nomb, CString &strAppName, CString &strStationName, unsigned short &uwPort)
-{
+first commit and then pull changes for sync and then you can push into your 
+central repository.
