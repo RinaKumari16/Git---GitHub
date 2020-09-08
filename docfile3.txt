@@ -1,0 +1,5 @@
+you can switch to other branch 
+$ git checkout <branch name>
+
+Branching is just used as a pointer..whatever files in the master branch will be pointed by both master
+and new branches which we made.

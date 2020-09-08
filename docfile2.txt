@@ -1,0 +1,1 @@
+Branching helps in reducing the confliction with master branch.
